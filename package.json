@@ -7,6 +7,14 @@
   "devDependencies": {
     "netlify-lambda": "^1.4.3"
   },
+  "proxy": {
+    "/.netlify/functions": {
+      "target": "http://localhost:9000",
+      "pathRewrite": {
+        "^/.netlify/functions": ""
+      }
+    }
+  },
   "scripts": {
     "dev": "netlify-lambda serve functions",
     "build": "netlify-lambda build functions"
