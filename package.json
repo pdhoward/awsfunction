@@ -1,8 +1,8 @@
 {
-  "name": "netlify-function-example",
+  "name": "awsfunction",
   "version": "1.0.0",
   "main": "index.js",
-  "author": "Kent C. Dodds <kent@doddsfamily.us> (http://kentcdodds.com/)",
+  "author": "Strategic Machines",
   "license": "MIT",
   "devDependencies": {
     "netlify-lambda": "^1.4.3"
