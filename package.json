@@ -4,8 +4,7 @@
   "main": "index.js",
   "author": "Strategic Machines",
   "license": "MIT",
-  "devDependencies": {
-    "netlify-lambda": "^1.4.3"
+  "devDependencies": {    
   },
   "proxy": {
     "/.netlify/functions": {
@@ -19,5 +18,8 @@
     "dev": "netlify-lambda serve functions",
     "build": "netlify-lambda build functions"
   },
-  "dependencies": {}
+  "dependencies": {
+    "http-server": "^0.12.1",
+    "netlify-lambda": "^1.4.3"
+  }
 }
